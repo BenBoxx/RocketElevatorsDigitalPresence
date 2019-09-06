@@ -1,0 +1,20 @@
+
+var ftGUID_4035871="4266D22BA4E4CC";
+var ftConfID_4035871="11037758";
+var ftParams_4035871="ftx=&fty=&ftadz=&ftscw=&ft_custom=&ftOBA=1&ft_ifb=1&ft_domain=www.reuters.com&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fwww.reuters.com%2Farticle%2Fus-thyssenkrupp-m-a-kone%2Fkone-explores-partnership-to-bid-for-thyssenkrupp-elevator-business-sources-idUSKCN1VQ1WT&cachebuster=20640.74739372801";
+var ftKeyword_4035871="";
+var ftCustom_4035871="";
+var ftSection_4035871="";
+var ftSegment_4035871="";
+var ftSegmentList_4035871=[];
+var ftRuleMatch_4035871="0";
+var ftTimestamp_4035871="1567788783";
+var ftImp4035871 = {};
+ftImp4035871.privacy = "x";
+ftImp4035871.guidAge = "0";
+ftImp4035871.impID = "05402474-6C1E-3E0C-93D6-839D7767BCCC";
+ftImp4035871.duid = "FT:4266D22BA4E4CC";
+ftImp4035871.ft_tpplid = "";
+ftImp4035871.ft_c = {};
+
+document.write('<scr'+'ipt src="https://cdn.flashtalking.com/xre/403/4035871/2380030/js/j-4035871-2380030.js" id="ftscript_m4035871" name="ftscript_m4035871"></scr'+'ipt>');
