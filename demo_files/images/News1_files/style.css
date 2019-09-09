@@ -1,0 +1,162 @@
+@font-face {
+    font-family: ViaMaax Black;
+    src: url(../fonts/viamaax-black-webfont.woff);
+}
+
+@font-face {
+    font-family: ViaMaax;
+    src: url(../fonts/viamaax-webfont.woff);
+}
+
+@font-face {
+    font-family: ViaMaax Bold;
+    src: url(../fonts/viamaax-bold-webfont.woff);
+}
+
+@font-face {
+    font-family: ViaMaax Medium;
+    src: url(../fonts/viamaax-medium-webfont.woff);
+}
+
+#borderBox {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    opacity: 0;
+}
+
+.container {
+    width: 728px;
+    height: 90px;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: right;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.container div, .container img {
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: 0px;
+}
+
+#titlebg {
+    opacity: 0;
+    width: 160px;
+    height: auto;
+    padding: 0 0 5px;
+}
+
+/*#titlebgShadow { height: auto; width: 100%; left: 0; top: 0; opacity: 0; }*/
+#titlescrolling {
+    width: 100%;
+    /* width: 64.75%; */
+    height: 100%;
+    /* height: 65%; */
+    left: 0;
+    top: 0;
+}
+
+#titlescrolling img {
+    position: relative;
+    width: 39%;
+    height: auto;
+    /* padding-bottom: 8px; */
+    left: 5px;
+    /*max-height: 60px;*/
+    top:-25px;
+    transform: matrix(1.5);
+}
+
+#btn {
+    z-index: 10000;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    opacity: 0.0;
+    top: 0;
+    left: 0;
+    display: block;
+    position: absolute;
+}
+
+#frm1 {
+    overflow: hidden;
+    width: 98%;
+    height: 100%;
+    top: 0px;
+
+    left: 29.5%;
+    transform: scale(1.6);
+}
+
+#overlay {
+    width: 100%;
+    height: 100%;
+    left: 19%;
+    top: 37%;
+}
+
+#headline1 {
+    right: auto;
+    left: 180px;
+    top: 95px;
+    font-family: "ViaMaax", Arial;
+    font-size: 18.05px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+#frm2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+#sub_headline { /*opacity:0;top: 559px;*/
+    font-family: "ViaMaax Bold", Arial; /*left: auto;right: 21px;font-size: 22.57px;line-height: 1em; letter-spacing: -0.03em;*/
+}
+
+#cta {
+    bottom: -90px;
+    top: auto;
+    right: 0;
+    left: auto;
+    font-family: "ViaMaax Medium", Arial;
+    padding: 9px 27px 6px 24px;
+    font-size: 16.58px;
+    letter-spacing: 0.02em;
+}
+
+/*#logo2,*/
+#logo {
+    opacity: 0;
+}
+
+#logo {
+    left: 1px;
+}
+
+div {
+  color: #4B4F54;
+}
+
+.guide {
+    width: 728px;
+    height: 90px;
+    top: 0px;
+    left: 0px;
+    opacity: 0.4;
+    cursor: pointer;
+    background-image: url(../images/guide7.png);
+    position: absolute;
+    /* display: none; */
+}
