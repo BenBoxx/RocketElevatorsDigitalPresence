@@ -93,7 +93,6 @@
 		</div>
 		<!-- /SLIDE TOP -->
 
-
 		<!-- wrapper -->
 		<div id="wrapper">
 
@@ -156,34 +155,34 @@
 								-->
 								<ul id="topMain" class="nav nav-pills nav-main nav-onepage">
 									<li class="active"><!-- HOME -->
-										<a href="#home">
+										<a href="file:///C:/Projets/RocketElevatorsDigitalPresence/index.html#home">
 											HOME
 										</a>
 									</li>
 									<li><!-- SERVICES -->
-										<a href="#services">
+										<a href="file:///C:/Projets/RocketElevatorsDigitalPresence/index.html#services">
 											SERVICES
 										</a>
 									</li>
 									<li><!-- PORFOLIO -->
-										<a href="#work">
+										<a href="file:///C:/Projets/RocketElevatorsDigitalPresence/index.html#work">
 											PORTFOLIO
 										</a>
 									</li>
 									
 									<li><!-- NEWS -->
-										<a href="#news">
+										<a href="file:///C:/Projets/RocketElevatorsDigitalPresence/index.html#news#news">
 											NEWS
 										</a>
 									</li>
 									<li><!-- CLIENTS -->
-										<a href="#clients">
+										<a href="file:///C:/Projets/RocketElevatorsDigitalPresence/index.html#clients#clients">
 											CLIENTS
 										</a>
 									</li>
 									
 									<li><!-- CONTACT -->
-										<a href="#contact">
+										<a href="file:///C:/Projets/RocketElevatorsDigitalPresence/index.html#contact#contact">
 											CONTACT
 										</a>
 									</li>
@@ -199,43 +198,24 @@
 			</div>
 		<!-- /HEADER -->
 
-
-
-
-
-
-
-			<!-- PAGE HEADER 
-				
-				CLASSES:
-					.page-header-xs	= 20px margins
-					.page-header-md	= 50px margins
-					.page-header-lg	= 80px margins
-								.page-header-xlg= 130px margins
-					.dark		= dark page header
-					.light		= light page headerz
-			-->
 			<section class="page-header page-header-xs mt-60">
 				<div class="container">
 
 					<h1><strong>Estimation & Quotation</strong></h1>
-					<span class="fs-18 fw-300"><em></em></span>
+					<span class="fs-18 fw-300"><em>Fast & Simple</em></span>
 				</div>
 			</section>
 			
 			<!-- /PAGE HEADER -->
 
-		
 			<!-- CHECKOUT -->
 			<section>
-
-				
 
 				<div class="container">	
 
 					<div class="col-md-6 col-sm-6">
-						<label class="mt-0 fs-14 fw-400" for="billing_state">What kind of Building ? *</label>
-						<select id="building_type" name="billing[state]" class="form-control pointer required">
+						<label class="mt-0 fs-14 fw-400" for=""><strong>What Kind of Building ?</strong></label>
+						<select id="building_type" name="[]" class="form-control pointer required">
 								<option value="">Choose</option>
 							<option value="residential">Residential</option>
 							<option value="commercial">Commercial</option>
@@ -243,20 +223,21 @@
 							<option value="hybride">Hybride</option>
 						</select>
 					</div>
-					<!-- residential -->
-				
-					<section>
 					
+					<section>
+
+                    <h1>Residential</h1>
+				
 						<div class="col-md-4">
 							<label for="residential">How Many Unit in the Building ? </label>
-							<input required type="var" value="" class="form-control" name="residential[residential][required]" id="nb_appartments">
+							<input required type="var" value="" class="form-control" onkeyup="CollectData()"  name="residential[residential][required]" id="nb_appartments">
 						</div>
 						
 						<div class="col-md-4">
 							<label for="residential">How Many Level in the Building ?<br>(from street level) </label>
-							<input required type="var" value="" class="form-control" name="residential[residential][required]" id="nb_floors">
+							<input required type="var" value="" class="form-control" onkeyup="CollectData()" name="residential[residential][required]" id="nb_floors">
 						</div>
-						
+						<!-- onkeyup="CollectData()" -->
 						<div class="col-md-4">
 							<label for="residential">How Many Level in the Basement ? </label>
 							<input type="var" value="" class="form-control" name="residential[residential][required]" id="nb_basements">
@@ -264,10 +245,9 @@
 
 					</section>
 
-					
-					<!-- /commercial -->
-
 					<section>
+
+					<h1>Commercial</h1>
 
 							<div class="col-md-4">
 								<label for="commercial">How Many Different Business in the Building ? </label>
@@ -294,12 +274,11 @@
 										<input type="var" value="" class="form-control" name="commercial[commercial][required]" id="nb_elv_shaft">
 							</div>
 
-	
 					</section>
 
-					<!-- corporative -->
-
 					<section>
+
+					<h1>Corporative</h1>
 
 							<div class="col-md-4">
 								<label for="corporative">How Many Business Rent a Unit ?</label>
@@ -326,11 +305,11 @@
 										<input type="var" value="" class="form-control" name="corporative[corporative][required]" id="nb_max_pers_level">
 							</div>
 
-					
 					</section>
-					<!-- hybride -->
-
+					
 					<sectoin>
+
+					<h1>Hybride</h1>
 
 							<div class="col-md-4">
 								<label for="hybride">How Many Differant Business in the Building ?</label>
@@ -367,22 +346,12 @@
 				</div>
 			</section>
 			
-
 		</div>
 		<!-- /wrapper -->
-
-
-
-
-
-
-
-
 
 		<!-- FOOTER -->
 		<footer id="footer">
 				<div class="container">
-
 
 					<div class="row">
 
@@ -417,12 +386,10 @@
 							</form>
 							<!-- /Newsletter Form -->
 
-
 						</div>
 						<!-- /col #2 -->
 
 					</div>
-
 
 				</div>
 
@@ -440,20 +407,16 @@
 			</footer>
 		<!-- /FOOTER -->
 
-
-
-
 		<!-- SCROLL TO TOP -->
 		<a href="#" id="toTop"></a>
-
 
 		<!-- PRELOADER -->
 		<div id="preloader">
 			<div class="inner">
 				<span class="loader"></span>
 			</div>
-		</div><!-- /PRELOADER -->
-
+		</div>
+		<!-- /PRELOADER -->
 
 		<!-- JAVASCRIPT FILES -->
 		<script>var plugin_path = 'assets/plugins/';</script>
@@ -461,6 +424,7 @@
 
 		<script src="assets/js/scripts.js"></script>
 		<script src="assets/js/questions.js"></script>
+		<script src="assets/js/calculs.js"></script>
 
 		<!-- PAGE LEVEL SCRIPTS -->
 		<script src="assets/js/view/demo.shop.js"></script>
