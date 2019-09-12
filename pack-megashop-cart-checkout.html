@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<title>Rocket Elevator - Home Page</title>
+		<title>Rocket Elevator - Quote & Estimation</title> 
 		<meta name="description" content="" />
 		<meta name="Author" content="Dorin Grigoras [www.stepofweb.com]" />
 
@@ -222,6 +222,11 @@
 							<option value="industrial">Industrial</option>
 							<option value="hybride">Hybride</option>
 						</select>
+
+						<input type="radio" name="range" value="standard"> Standard<br>
+						<input type="radio" name="range" value="Premium"> Premium<br>
+						<input type="radio" name="range" value="Excelium"> Excelium
+
 					</div>
 					
 					<section>
@@ -343,7 +348,17 @@
 							
 					</section>
 
+					<section>
+
+							<div class="col-md-4">
+								<label for="residential"><strong>RESULT</strong></label>
+								<input required type="var" value="" class="form-control" onkeyup="CollectData()"  name="residential[residential][required]" id="nb_appartments">
+							</div>
+
+					</section>
+
 				</div>
+
 			</section>
 			
 		</div>
